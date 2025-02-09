@@ -1,0 +1,13 @@
+.banner{
+    background-image: url("./bb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px 0;
+}
+#about{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100px;
+}
+.skills-padding{
+    padding: 70px 0;
+}
