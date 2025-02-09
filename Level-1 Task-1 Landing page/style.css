@@ -1,0 +1,168 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background-image: url(/hero-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px 0;
+    text-align: center;
+}
+
+.hero-title{
+    margin-bottom: 20px;
+}
+
+.h1{
+    color: black;
+    font-size: 80px;
+}
+
+.tour-search{
+    background-color: rgb(0, 102, 255);
+    padding: 60px 0px;
+}
+
+.tour-search-form .input-label{
+    color: white;
+    font-size: var(--fs-4);
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.tour-search-form .input-field {
+    background-color: white;
+    padding: 10px 15px;
+    font-size: var(--fs-5);
+    border-radius: 50px;
+}
+
+.tour-search-form .input-wrapper { 
+    margin-bottom: 15px; 
+}
+
+.tour-search .btn{
+    border-width: 2px;
+    font-weight: 600;
+    margin-top: 35px;
+    border-radius: 60px;
+}
+
+.destination-padding{
+    padding: 70px 0;
+}
+
+.card-body .fa{
+  color: black
+}
+
+.card {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+.package-padding{
+    padding: 70px 0;
+}
+
+.gallery-padding{
+    padding: 70px 0;
+}
+
+.gallery-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    list-style: none;
+}
+
+.gallery-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .contact-padding{
+    padding: 70px 0;
+  }
+
+  .contact{
+    background-color: rgb(0, 102, 255);
+  }
+
+  .footer-top{
+    background-color: #223544;
+    padding: 70px 0;
+    color: white;
+  }
+   
+  .icons .fa{
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contact-item{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+  }
+  
+
+  .contact-link,
+address {
+  font-style: normal;
+  color: var(--gainsboro);
+  font-size: var(--fs-5);
+}
+  .form-text{
+    margin-bottom: 20px;
+  }
+
+  .footer-form .input-field {
+    font-size: fs-5;
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 100px;
+  }
+
+  .footer-form .btn{ 
+    width: 100%;
+    border-radius: 100px;
+}
+
+.footer-bottom{
+    background-color: rgb(30, 29, 29);
+    padding-block: 20px;
+    text-align: center;
+}
+
+.footer-bottom-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+  }
+
+  .btn{
+    border-radius: 100px;
+  }
